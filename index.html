@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DINOOSAUUUURRRRR</title>
+
+
+    <!-- Google Fonts -->
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+
+</head>
+
+
+<body>
+
+<div class="background">
+
+    <div class="sky-glow"></div>
+
+    <div class="moon">
+        <div class="moon-glow"></div>
+    </div>
+
+    <div id="stars"></div>
+    
+    <div class="constellations"></div>
+
+    <div id="shootingStars"></div>
+
+    <svg class="hills" viewBox="0 0 1920 400" preserveAspectRatio="none">
+
+        <!-- Back Hill -->
+        <path
+            class="hill-back"
+            d="
+            M0,250
+            C250,180
+            450,310
+            700,250
+            C1000,170
+            1250,320
+            1550,240
+            C1750,200
+            1920,260
+            1920,400
+            0,400
+            Z
+            "/>
+
+        <!-- Front Hill -->
+        <path
+            class="hill-front"
+            d="
+            M0,310
+            C300,250
+            650,360
+            960,290
+            C1250,240
+            1650,360
+            1920,320
+            L1920,400
+            L0,400
+            Z
+            "/>
+
+    </svg>
+
+    <div id="fireflies"></div>
+
+</div>
+
+
+
+    <!-- Welcome Scene -->
+
+    <section id="welcomeScene" class="scene">
+
+
+        <div class="card">
+
+
+            <h1>
+               If u no eliana shupi, this no meant for u.
+            </h1>
+
+            <p>
+                This is my gift for uuu huehuehue
+            </p>
+
+
+            <button id="beginBtn">
+                Pindutin mo ituh ✨
+            </button>
+
+
+        </div>
+
+
+    </section>
+
+<!-- Story Scene -->
+<div class="story-text">
+
+    <div class="story-card">
+
+        <h1 id="story"></h1>
+
+    </div>
+
+</div>
+
+<div class="birthday-title">
+    HAPPY BIRTHDAY ELIANAAA!!
+</div>
+
+<!-- Background Music -->
+
+<audio id="bgMusic" loop>
+    <source src="music/uhhh.mp3" type="audio/mp3">
+</audio>
+
+
+<section class="memory-section">
+
+    <div class="book">
+
+    <!-- Spine -->
+    <div class="book-spine"></div>
+
+    <!-- Front Cover -->
+    <div class="book-cover">
+
+        <div class="book-lock">
+    🌙
+</div>
+
+        <div class="cover-content">
+
+            <h1>The Chronicles of Eliaana</h1>
+
+            <div class="book-emblem">🌙</div>
+
+            <p> Filled with laughter, memories, and a little bit of magic. ✨</p>
+
+        </div>
+
+    </div>
+
+    <!-- Book Pages -->
+    <div class="pages">
+
+<div class="page page1">
+
+    <div class="page-front">
+
+        <div class="memory-content">
+
+            <img src="images/7.jpg" class="memory-image">
+
+            <hr>
+
+            <p class="memory-text" data-text="
+            I'm really grateful that I got to meet you and keep you as my friend. 
+            Looking back we don't really have that much in common but we still clicked. (Wao light switch yarn?!?!)
+            "></p>
+
+        </div>
+
+    </div>
+
+
+    <div class="page-back"></div>
+
+</div>
+
+
+<div class="page page2">
+
+    <div class="page-front">
+
+        <div class="memory-content">
+
+            <img src="images/DSC00836.jpg" class="memory-image">
+
+            <hr>
+
+            <p class="memory-text" data-text="
+            Some of my favorite memories aren't the perfect ones—they're the random laughs, the silly moments, and the times we couldn't stop smiling. 
+            Those are the moments that always stay with me, and I'm really glad I got to share them with you.
+            "></p>
+
+        </div>
+
+    </div>
+
+    <div class="page-back"></div>
+
+</div>
+
+<div class="page page3">
+
+    <div class="page-front">
+
+        <div class="memory-content">
+
+            <img src="images/4.jpg" class="memory-image">
+
+            <hr>
+
+            <p class="memory-text" data-text="
+            Konti na lang, malapit na tayong mag-adulting stage. Unti-unti na rin tayong magiging busy, and we might not have as much time for each other as we do now. 
+            But no matter where life takes us, I hope we never forget the memories we've made together.
+            "></p>
+
+        </div>
+
+    </div>
+
+    <div class="page-back"></div>
+
+</div>
+
+
+<div class="page page4">
+
+    <div class="page-front">
+
+        <div class="memory-content final-page">
+
+            <h2 class="final-title">
+                Until the Next Adventure ✨
+            </h2>
+
+            <p class="memory-text" data-text="
+Happy Birthday, Elianaa!
+
+Thank you for all the laughter, the conversations, the random moments, and the memories we've made together. 
+
+I hope this little scrapbook reminds you of just a few of the many reasons you're so special to the people around you.
+
+I truly hope you achieve all of your dreams and live your life to the fullest. You deserve all the happiness, success, and wonderful things that life has to offer.
+
+Thank you for being such an amazing friend and I hope you know that I'll always be here, no matter what.
+
+----Love jam & rexieeee
+"></p>
+
+        </div>
+
+    </div>
+
+    <div class="page-back"></div>
+
+</div>
+
+
+</div>
+
+
+<!-- PAGE CONTROLS -->
+
+<div class="book-controls">
+
+    <button id="prevPage">
+        ◀
+    </button>
+
+
+    <button id="nextPage">
+        ▶
+    </button>
+
+</div>
+
+    <!-- Back Cover -->
+    <div class="book-back"></div>
+
+</div>
+
+</section>
+
+
+<div class="flash"></div>
+
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+/* Floating Moon */
+
+.moon{
+
+    animation:moonFloat 6s ease-in-out infinite;
+
+}
+
+@keyframes moonFloat{
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+}
+
+/* Card */
+
+.card{
+
+    animation:fadeUp 1.3s;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* Button Glow */
+
+button{
+
+    animation:glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+    from{
+
+        box-shadow:0 0 10px #9d4edd;
+
+    }
+
+    to{
+
+        box-shadow:0 0 35px #d291ff;
+
+    }
+
+}
+@keyframes cloudMove{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(140vw);
+    }
+
+}
+
+
+
+@keyframes cloudMoveReverse{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(-140vw);
+    }
+
+}
+
+
+
+@keyframes fireflyMove{
+
+
+    50%{
+
+        transform:
+        translate(
+        30px,
+        -40px
+        );
+
+        opacity:.3;
+
+    }
+
+
+}
+
+
+
+@keyframes sparkleDisappear{
+
+    0%{
+
+        opacity:1;
+
+        transform:
+        scale(1)
+        rotate(0deg);
+
+    }
+
+
+    50%{
+
+        opacity:1;
+
+        transform:
+        scale(1.4)
+        rotate(90deg);
+
+    }
+
+
+    100%{
+
+        opacity:0;
+
+        transform:
+        scale(0)
+        rotate(180deg)
+        translateY(-25px);
+
+    }
+
+}
+
+@keyframes skyMove{
+
+    0%{
+
+        background-position:0% 50%;
+
+    }
+
+
+    50%{
+
+        background-position:100% 50%;
+
+    }
+
+
+    100%{
+
+        background-position:0% 50%;
+
+    }
+
+}
+
+@keyframes sway{
+
+    0%{
+
+        transform:rotate(-2deg);
+
+    }
+
+    50%{
+
+        transform:rotate(2deg);
+
+    }
+
+    100%{
+
+        transform:rotate(-2deg);
+
+    }
+
+}
+
